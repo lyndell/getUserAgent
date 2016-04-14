@@ -9,7 +9,10 @@
   # $broswerVersion, 
 	list($browser, $sysinfo, $platform, $verNo) = split('/', $browserStr );
 
-  echo "Browser: " . $browser;
+  echo "Browser: " . $browser . "\n\n";
+  echo "print_r: \n" ;
+  print_r($browser);
+  echo "\n\n";
   # $sysinfo, $platform, $verNo) = split('/', $browserStr );
 ?>
 
